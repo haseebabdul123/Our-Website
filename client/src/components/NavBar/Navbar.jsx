@@ -69,7 +69,7 @@ const Navbar = ({ onSignInClick }) => {
     <div className="header">
       {isRegistrationPopupVisible && (
         <div className="popup-overlay" onClick={handleCloseRegisterPopup}>
-          <div className="popup-reg" onClick={(e) => e.stopPropagation()}>
+          <div className="popup" onClick={(e) => e.stopPropagation()}>
             <div className="log">
               <h2>Register</h2>
               <img src={cross} alt="close" onClick={handleCloseRegisterPopup} />
