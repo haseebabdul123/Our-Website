@@ -1,0 +1,73 @@
+.admin-layout {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 5rem;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 15px;
+  }
+  
+  .sidebar ul li a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar ul li a:hover,
+  .sidebar ul li a.active {
+    background-color: #dc2751;
+  }
+  
+  .main-content {
+    margin-top: 5rem;
+    flex: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+  }
+  
+  .admin-user-section .containers {
+    margin-bottom: 20px;
+  }
+  
+  .admin-user-section table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .admin-user-section table th,
+  .admin-user-section table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .admin-user-section table th {
+    background-color: #dc2751;
+    color: white;
+  }
+  
+  .admin-user-section table td {
+    color: black;
+  }
+  
+.btn{
+    background-color: #dc2751;
+}

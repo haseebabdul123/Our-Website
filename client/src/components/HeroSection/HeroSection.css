@@ -1,0 +1,106 @@
+/* Hero Section */
+.hero-section {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0 0 0 / 73%), rgb(0 0 0 / 71%)), url('../../assets/bg-img.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+  position: relative; /* To ensure other sections do not overlap */
+  z-index: 1; /* Keeps this section above others */
+}
+
+.hero-text {
+  text-align: center;
+  max-width: 800px;
+}
+
+.hero-text h1 , span{
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Architects Daughter", serif;
+}
+
+.hero-text p {
+  max-width: 700px;
+  margin: 10px auto 20px;
+  font-size: 20px;
+}
+
+.hero-section button {
+  background: #fff;
+  color: #212121;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
+
+.hero-text button:hover {
+  background-color: #dc2751;
+  color: #fff;
+}
+
+/* Mobile Devices (less than 768px) */
+@media (max-width: 767px) {
+  .hero-text h1 {
+    font-size: 30px; /* Smaller heading */
+  }
+
+  .hero-text p {
+    font-size: 16px; /* Adjust paragraph size */
+    max-width: 90%; /* Adjust paragraph width */
+  }
+
+  .hero-section {
+    padding: 20px; /* Add padding for small screens */
+  }
+
+  .hero-section button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+/* Tablets (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero-text h1 {
+    font-size: 45px; /* Adjust heading size for tablets */
+  }
+
+  .hero-text p {
+    font-size: 18px; /* Slightly larger paragraph */
+    max-width: 85%; /* Slightly adjusted paragraph width */
+  }
+
+  .hero-section {
+    padding: 40px; /* Padding for tablets */
+  }
+
+  .hero-section button {
+    padding: 12px 22px;
+    font-size: 15px;
+  }
+}
+
+/* Desktops and Large screens (1024px and above) */
+@media (min-width: 1025px) {
+  .hero-text h1 {
+    font-size: 60px; /* Default heading size for large screens */
+  }
+
+  .hero-text p {
+    font-size: 20px; /* Default paragraph size */
+  }
+
+  .hero-section button {
+    padding: 14px 25px;
+    font-size: 16px;
+  }
+}

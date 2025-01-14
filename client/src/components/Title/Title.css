@@ -1,0 +1,26 @@
+.title{
+    text-align: center;
+    background-color: #ffff;
+    color: #dc2751;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 60px 0 10px;
+    }
+    .title p{
+        font-family: "Architects Daughter", serif;
+    }
+    .title h2{
+      font-size: 48px;
+      font-weight: 800;
+      margin-top: 5px;
+      color: #000F38;
+      text-transform: none;
+    }
+
+.line{
+    width: 70px;
+    border-top: 3px solid #dc2751;
+    opacity: 1;
+    margin: 15px 0;
+    margin: 15px auto;
+}

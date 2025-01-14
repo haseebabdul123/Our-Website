@@ -1,0 +1,72 @@
+.team-section {
+  margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    gap: 20px;
+    background-color: #fff;
+  }
+  .team-cards{
+   overflow: hidden;
+  }
+  .team-cards ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: max-content;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+   .team-cards ul li{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    column-gap: 35px;
+   }
+  
+  .team-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 370px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  .team-member{
+    background-color: #efefef;
+    position: absolute;
+    left: 8%;
+    top: 85%;
+    width: 85%;
+    border-radius: 12px;
+    padding: 8px 6px;
+    transition: 0.3s;
+}
+.team-member:hover{
+  background-color: #dc2751;
+  color: #fff;
+}
+  
+  
+  .team-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .team-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .team-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: inherit; /* Inherit color for hover */
+  }
+  
