@@ -13,6 +13,7 @@ import Logout from "./components/LogOut/Logout";
 import AdminLayout from "./components/layout/Admin-Panal";
 import AdminUsers from "./pages/AdminUsers";
 import AdminContacts from "./pages/AdminContacts";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -48,6 +49,7 @@ const App = () => {
         <Route path="contacts" element={<AdminContacts />} />
         </Route>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 };

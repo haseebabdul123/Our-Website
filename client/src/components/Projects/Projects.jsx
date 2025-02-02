@@ -2,7 +2,8 @@ import React, { useRef } from 'react'
 import left from "../../assets/left.png"
 import right from "../../assets/right.png"
 import "./Projects.css"
-import Title from '../Title/Title'
+import projectData from '../../data/ProjectsData'
+
 const Projects = () => {
 
     const slider = useRef()
@@ -20,45 +21,6 @@ const Projects = () => {
           }
               slider.current.style.transform = `translateX(${tx}%)`
       }
-    const projectData = [
-        {
-          id: 1,
-          icon: "♞",
-          title: "Content Strategy",
-          description: "We help you create content that aligns perfectly with your brand and engages your audience.",
-         
-        },
-        {
-            id: 2,
-            icon: "♞",
-            title: "Content Strategy",
-            description: "We help you create content that aligns perfectly with your brand and engages your audience.",
-           
-          },
-        {
-            id: 3,
-            icon: "♞",
-            title: "Content Strategy",
-            description: "We help you create content that aligns perfectly with your brand and engages your audience.",
-           
-        },
-        
-        {
-            id: 4,
-            icon: "♞",
-            title: "Content Strategy",
-            description: "We help you create content that aligns perfectly with your brand and engages your audience.",
-           
-        }
-        ,
-        {
-            id: 5,
-            icon: "♞",
-            title: "Content Strategy",
-            description: "We help you create content that aligns perfectly with your brand and engages your audience.",
-           
-        }
-      ];
   return (
     
     <div className="projects-container">
@@ -71,7 +33,7 @@ const Projects = () => {
       <div className="card" key={project.id}>
         <div className="face face1">
           <div className="content">
-            <div className="icon">{project.icon}</div>
+            <img className="icon" src={project.image}/>
             <h3>{project.title}</h3>
           </div>
         </div>

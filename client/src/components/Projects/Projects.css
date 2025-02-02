@@ -58,7 +58,7 @@
 }
 
 .container .card .face.face1 .content{
-    opacity: 0.2;
+    opacity: 0.5;
     transition: 0.5s;
 }
 
@@ -67,21 +67,27 @@
 }
 
 .container .card .face.face1 .content img{
-    max-width: 100px;
+    width: 300px;
+    height: 200px;
 }
 
 .container .card .face.face1 .content h3{
-    margin: 10px 0 0;
+    margin: 30px 0 0;
     padding: 0;
-    color: #fff;
+    color: #000;
+    opacity: 0.7;
     text-align: center;
     font-size: 1.5em;
+}
+.container .card:hover .face.face1 .content h3{
+    display: none;
 }
 
 .container .card .face.face2{
     position: relative;
-    background: #fff;
+    background: #dc2751;
     display: flex;
+    color: #fff;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -97,19 +103,20 @@
 .container .card .face.face2 .content p{
     margin: 0;
     padding: 0;
+    line-height: 1.8;
 }
 
 .container .card .face.face2 .content a{
     margin: 15px 0 0;
     display:  inline-block;
     text-decoration: none;
-    font-weight: 900;
-    color: #333;
+    color: #ffff;
     padding: 5px;
-    border: 1px solid #333;
+    border: 1px solid #fff;
+    border-radius: 10px;
 }
 
 .container .card .face.face2 .content a:hover{
-    background: #333;
-    color: #fff;
+    background: #fff;
+    color: #dc2751;
 }

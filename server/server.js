@@ -11,7 +11,7 @@ const adminRoute = require("./routes/admin-route")
 
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://wextrum.com/',
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify allowed methods
   credentials: true, // If you are using cookies
 }));

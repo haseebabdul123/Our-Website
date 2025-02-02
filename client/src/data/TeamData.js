@@ -10,7 +10,7 @@ import Madison from "../assets/teamMembers/Madison Ingerson.jpeg";
 import Yen from "../assets/teamMembers/Yen Hai.jpeg";
 import Aaron from "../assets/teamMembers/Aaron Swenson.jpeg";
 import Ghayoor from "../assets/teamMembers/Ghayoor Khan.jpeg";
-
+// import abbas from "../assets/teamMembers/"
 const teamMembers = [
   {
     name: "Yalmaz Fahim",

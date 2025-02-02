@@ -45,7 +45,7 @@ const Login = () => {
       
         toast.success("Login successfully");
         setLoginPopupVisible(false)
-        
+        location.reload()
         storeToken(responseData.token)
         setUser({  email: "",password: "" });
       } else {
